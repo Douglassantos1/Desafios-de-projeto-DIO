@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <h1>HTML</h1>
+
+    <h2>Conteudo</h2>
+
+    <ol>
+        <li><a href="#inicio">O que é o HTML?</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#tags">O que são tags HTML?</a></li>
+        <li><a href="#estrutura">Estrutura básica de um documento</a></li>
+    </ol>
+
+    <h3 id="inicio">O que é o HTML?</h3> 
+
+    <p><abbr>HTML</abbr>(abreviação para a expressão inglesa HyperText Markup Language, que significa: <i>"Linguagem de Marcação de Hipertexto"</i>) <strong>é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos <abbr>HTML</abbr> podem ser interpretados por navegadores</strong>. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p> <hr>
+
+    <h3 id="historia">História</h3> 
+
+    <p><mark> Tim Berners-Lee (físico britânico) criou o <abbr>HTML</abbr> original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP</mark>. Na época, a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), ganhou atenção mundial.</p>
+    <p>As primeiras versões do <abbr>HTML</abbr> foram definidas com regras sintáticas flexíveis, o que ajudou aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de ferramentas para autoria de <abbr>HTML</abbr> aumentou, assim como a tendência em tornar a sintaxe cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código <abbr>HTML</abbr> válido.</p>  <hr>
+
+    <h3 id="tags">O que são tags HTML?</h3>
+
+    <p>Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</p>
+
+    <p>As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.</p> 
+
+    <p>Tag que precisa de fechamento não vai funcionar caso não tenha uma barra (/), por exemplo: <u>&lt;h1&gt;Titulo pricipal&lt;/h1&gt;</u> não é correto.</p>
+    
+    <hr>
+
+    <h3 id="estrutura">Estrutura básica de um documento</h3> 
+
+    <h4>A estrutura básica de um documento HTML (Hyper Text Markup Language - Linguagem de Marcação de Hypertexto), apresenta as seguintes marcações:</h4>
+
+    <p><code>
+     &lt;!DOCTYPE html&gt;<br>
+     &lt;html lang="pt"&gt;<br>
+     &lt;head&gt;<br>
+        &lt;meta charset="UTF-8" /&gt;<br>
+        &lt;title&gt;Título do Documento&lt;/title&gt;<br>
+    &lt;/head&gt;<br>
+    &lt;body&gt;<br>
+        &lt;!-- Aqui fica a página que será visível para todos, onde pode-se inserir
+        textos, imagens, links para outras páginas, etc, geralmente usa-se: --&gt;<br>
+
+        &lt;div&gt;<br>
+            Tag para criar um bloco, mais utilizado com CSS <br>
+        &lt;/div&gt;<br>
+
+        &lt;span&gt;Tag para modificação de uma parte do texto da página&lt;/span&gt;<br>
+
+        &lt;img src="imagem.jpg" /&gt;<br>
+
+        &lt;a href="https://www.wikipedia.org"&gt;Wikipédia, A Enciclopédia Livre&lt;/a&gt;<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+    </code></p>
+
+    <h5>Os marcadores básicos de HTML, cuja presença é altamente recomendada nas páginas são:</h5>
+
+    <ul>
+        <li><code>&lt;html&gt;</code>: define o início de um documento HTML e indica ao navegador que todo conteúdo posterior deve ser tratado como uma série de códigos HTML</li>
+        <li><code>&lt;head&gt;</code>: define o  cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto</li>
+        <li><code>&lt;body&gt;</code>: define o conteúdo principal, o corpo do documento. Esta é a parte do documento HTML que é exibida no navegador. No corpo podem-se definir atributos comuns a toda a página, como cor de fundo, margens, e outras formatações.</li>
+    </ul> <hr>
+    
+    <h6>Creditos</h6>
+
+    <blockquote cite="https://pt.wikipedia.org">
+       <p>Esse artido foi retirado da Wikipédia, a enciclopédia livre.</p>
+   </blockquote>
+
+    <p><small>fonte:<a href="https://pt.wikipedia.org/">Wikipédia</a></small></p>
+    
+</body>
+</html>
